@@ -1,0 +1,100 @@
+.menu{
+    background-color: darkslategrey;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: grid;
+    padding: 30px;
+    margin: auto;
+    @media (min-width:0px) and (max-width:576px) {
+        grid-template-columns: repeat(1,100%); 
+        display: block;
+        padding: 0px;
+    }
+}
+.hamburger{
+    display: none; 
+}
+.com{
+    color: bisque;
+    padding: 20px;  
+    font-size: 20px;
+    @media (min-width: 576px){
+        display: none;   
+    }
+  
+   
+}
+.hamburger:checked ~ .a{
+    display: block;
+}
+.color{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.color:hover{
+    transition: 2s ;
+}
+
+body{
+    background-color: rgb(111, 1, 111);
+    margin: 0px;
+}
+
+.container{
+    background-color: darkslategray;
+   
+}
+.a{
+    text-align: center;
+    @media (min-width:0px) and (max-width:576px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        display: none;
+    }
+    
+   
+}
+.a:hover{
+    
+      border-bottom: 1px solid #d5d5d5;
+      transition: color 2s linear;
+   
+}
+.a:hover .active{
+    color: red;
+    transition: color 2s linear;
+    background-color: black;
+}
+  
+.bg{
+    display: grid;
+    grid-template-columns: repeat(4, calc(100% / 4 - 50px));
+    gap: 50px;
+   
+}
+.a2{
+    background: url(topic_118163_256.png);
+    height: 256px;
+    background-size:cover ;
+    background-position: center;
+}
+.a2:hover{
+ transform: scale(1.1);
+ transition: 1s linear;
+}
+.s{
+text-align: center;
+width: 100%; 
+}
+.cm{
+    font-size: 60px ;
+    color: bisque;
+    opacity: 100%;
+    text-shadow:  5px 2px black; 
+}
+b{
+    font-family: 'Oswald', sans-serif;
+   
+}

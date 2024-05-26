@@ -1,0 +1,113 @@
+.menu{
+    background-color: darkslategrey;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: grid;
+    padding: 30px;
+    margin: auto;
+    @media (min-width:0px) and (max-width:576px) {
+        grid-template-columns: repeat(1,100%); 
+        display: block;
+        padding: 0px;
+    }
+}
+.hamburger{
+    display: none; 
+}
+.com{
+    color: bisque;
+    padding: 20px;  
+    font-size: 20px;
+    @media (min-width: 576px){
+        display: none;   
+    }
+  
+   
+}
+.hamburger:checked ~ .a{
+    display: block;
+}
+.color{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(111, 1, 111);
+    margin: 0px;
+}
+
+.container{
+    background-color: darkslategray;
+   
+}
+.a{
+    text-align: center;
+    @media (min-width:0px) and (max-width:576px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        display: none;
+    }
+    
+   
+}
+.a:hover{
+    color: green;
+    background-color: black;
+     border-bottom: 1px solid #d5d5d5 ;
+}
+test{
+    border-radius: 10%;
+}
+textarea{
+    width: 70%;
+    text-align: center;
+
+}
+.text2{
+    line-height: 1.7;
+    font-size:50px;
+    color: white;
+  margin: auto;
+ text-shadow:  5px 10px rebeccapurple; 
+ 
+}
+b{
+    font-family: 'Oswald', sans-serif;
+   
+}
+.div1{
+    text-align: center;
+}
+.rewiews_container{
+    width: 70%;
+    margin: auto;
+}
+
+.textarea2{
+   display: inline;
+    text-align: center;
+}
+button{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 3px;
+cursor: pointer;
+font-size: 16px
+}
+.rewiew{
+    background-color: darkorchid;
+    border: 5px solid purple;
+    margin-top: 50px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+}
+body{
+    text-align: center;
+}
