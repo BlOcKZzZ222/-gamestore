@@ -72,6 +72,11 @@ body{
     display: grid;
     grid-template-columns: repeat(4, calc(100% / 4 - 50px));
     gap: 50px;
+    @media (min-width:0px) and (max-width:576px) {
+        grid-template-columns: 100%;
+        margin: 140px;
+        
+    }
    
 }
 .a2{
